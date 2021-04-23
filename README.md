@@ -162,5 +162,154 @@ header h1 {
       color: #b5b5b5;
 }
 ~~~
+Kemudian lihat hasilnya pada browser.
 
+![Membuat Layout Sederhana2](https://user-images.githubusercontent.com/81541764/115881211-bb927a80-a475-11eb-92d7-5a833e772696.JPG)
 
+## Membuat Navigasi
+Kemudian selanjutnya mengatur navigasi.
+~~~
+/* navigasi */
+nav {
+      display: block;
+      background-color: #1f5faa;
+}
+nav a {
+      padding: 15px 30px;
+      display: inline-block;
+      color: #ffffff;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: bold;
+}
+nav a.active, nav a:hover {
+      background-color: #2b83ea;
+}
+~~~
+Kemudian lihat hasilnya.
+
+![Membuat Navigasi](https://user-images.githubusercontent.com/81541764/115881544-0d3b0500-a476-11eb-97d0-cc9eae09c1cf.JPG)
+
+## Membuat Hero Panel.
+Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
+~~~
+<section id="hero">
+      <h1>Hello World!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis innisl volutpat,
+      malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc,
+      nec pretium nunc pretium ac.</p> <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+</section>
+~~~
+~~~
+/* Hero Panel */
+#hero {
+      background-color: #e4e4e5;
+      padding: 50px 20px;
+      margin-bottom: 20px;
+}
+#hero h1 {
+      margin-bottom: 20px;
+      font-size: 35px;
+}
+#hero p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 25px;
+}
+~~~
+
+![Membuat Hero Panel](https://user-images.githubusercontent.com/81541764/115881892-6b67e800-a476-11eb-84ed-948b621d8b45.JPG)
+
+## Mengatur Layout Main dan Sidebar
+Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
+~~~
+/* main content */
+#wrapper {
+      margin: 0;
+}
+#main {
+      float: left;
+      width: 640px;
+      padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+      float: left;
+      width: 260px;
+      padding: 20px;
+}
+~~~
+
+## Membuat Sidebar Widget
+Kemudian selanjutnya menambahkan element lain dalam sidebar.
+~~~
+<aside id="sidebar">
+      <div class="widget-box">
+            <h3 class="title">Widget Header</h3>
+            <ul>
+                  <li><a href="#">Widget Link</a></li>
+                  <li><a href="#">Widget Link</a></li>
+                  <li><a href="#">Widget Link</a></li>
+                  <li><a href="#">Widget Link</a></li>
+                  <li><a href="#">Widget Link</a></li>
+            </ul>
+      </div>
+      <div class="widget-box">
+            <h3 class="title">Widget Text</h3>
+            <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+            vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+      </div>
+</aside>
+~~~
+Kemudian tambahkan CSS.
+~~~
+/* widget */
+.widget-box {
+      border:1px solid #eee;
+      margin-bottom:20px;
+}
+.widget-box .title {
+      padding:10px 16px;
+      background-color:#428bca;
+      color:#fff;
+}
+.widget-box ul {
+      list-style-type:none;
+}
+.widget-box li {
+      border-bottom:1px solid #eee;
+}
+.widget-box li a {
+      padding:10px 16px;
+      color:#333;
+      display:block;
+      text-decoration:none;
+}
+.widget-box li:hover a {
+      background-color:#eee;
+}
+.widget-box p {
+      padding:15px; line-height:25px;
+}
+~~~
+
+![Membuat Sidebar Widget](https://user-images.githubusercontent.com/81541764/115883206-bc2c1080-a477-11eb-82c7-d4264a4513a0.JPG)
+
+## Mengatur Footer
+Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
+~~~
+/* footer */
+footer {
+      clear:both;
+      background-color:#1d1d1d;
+      padding:20px;
+      color:#eee;
+}
+~~~
+
+![Mengatur Footer](https://user-images.githubusercontent.com/81541764/115883679-407e9380-a478-11eb-9eed-8064d5f33069.JPG)
+
+## Menambahkan Elemen lainnya pada Main Content
+~~~
+
+~~~
