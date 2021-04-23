@@ -105,6 +105,7 @@ Kita akan membuat layout web sederhana seperti gambar berikut.
 ~~~
 Kemudian buat kerangka layout dengan semantics element seperti berikut.
 ![semantic element](https://user-images.githubusercontent.com/81541764/115878269-8df80200-a472-11eb-90d4-8f675b490a5c.JPG)
+
 Kemudian tulis kode berikut.
 ~~~
 <header>
