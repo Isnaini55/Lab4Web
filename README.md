@@ -83,8 +83,8 @@ Lakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya (left
 
 ## Membuat Layout Sederhana
 Kita akan membuat layout web sederhana seperti gambar berikut.
-![A](https://user-images.githubusercontent.com/81541764/115877832-132ee700-a472-11eb-8736-6d3c7ad73903.JPG)
 
+![A](https://user-images.githubusercontent.com/81541764/115877832-132ee700-a472-11eb-8736-6d3c7ad73903.JPG)
 
 ### Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
 ~~~
