@@ -126,7 +126,9 @@ Kemudian tulis kode berikut.
 </footer>
 ~~~
 Kemudian buka browser dan lihat hasilnya.
+
 ![Membuat Layout Sederhana](https://user-images.githubusercontent.com/81541764/115878683-0363d280-a473-11eb-8dc0-e43356331ae7.JPG)
+
 Kemudian tambahkan kode CSS untuk membuat layoutnya.
 ~~~
 /* import google font */
