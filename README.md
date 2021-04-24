@@ -475,7 +475,10 @@ Persiapan membuat dokumen HTML dengan nama file about.html seperti berikut.
 ~~~
 Kemudian buka browser dan lihat hasilnya.
 
-![tentang](https://user-images.githubusercontent.com/81541764/115945740-38117180-a4e7-11eb-8e9c-f246bc6752e8.JPG)
+![tentang](https://user-images.githubusercontent.com/81541764/115945914-27adc680-a4e8-11eb-91f1-a1965cccaa5d.JPG)
+![tentang2](https://user-images.githubusercontent.com/81541764/115945916-2a102080-a4e8-11eb-9726-08bffc20f52b.JPG)
+![tentang3](https://user-images.githubusercontent.com/81541764/115945918-2b414d80-a4e8-11eb-9584-99c77a845300.JPG)
+
 
 2. Tambahkan layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
