@@ -434,5 +434,130 @@ Kemudian tambahkan CSS.
 ## Pertanyaan dan Tugas
 1. Tambahkan Layout untuk menu About
 => buat single layout yang berisi deskripsi, portfolio, dll
+
+Persiapan membuat dokumen HTML dengan nama file about.html seperti berikut.
+~~~
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tentang</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero1">
+            <h1>Tentang</h1>
+            <p>Saya Isnaini Rizkyana lahir di Bekasi 5 Mei 1997 usia 23 tahun.
+                Saya adalah seorang mahasiswa Universitas Pelita Bangsa semester 4 mengambil prodi jurusan Teknik Informatika.
+            </p>
+            <br>
+            <br>
+            <h1>Portofolio</h1>
+            <img src="isnaini.png" style="width:950px;height:1200px;">
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+        </div>
+    </body>
+</html>
+~~~
+Kemudian buka browser dan lihat hasilnya.
+![tentang](https://user-images.githubusercontent.com/81541764/115945740-38117180-a4e7-11eb-8e9c-f246bc6752e8.JPG)
+
 2. Tambahkan layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
+
+Persiapan membuat dokumen HTML dengan nama file kontak.html seperti berikut.
+~~~
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontak</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+<body>
+    <section id="wrapper">
+        <section id="main">
+        <div class="row">
+            <div class="box">
+                <img src="" alt="" class="">
+                <h3></h3>
+                <p></p>
+                <a href="#" class="btn btn-default"></a>
+            </div>
+        </div>
+    <hr class="divider" />
+        <article class="entry">
+            <h2></h2>
+            <img src="" alt="">
+            <p>
+                <form action="" method="POST">
+                    <fieldset>
+                    <legend>Contact</legend>
+                    <p>
+                        <label>Name     :       Isnaini Rizkyana</label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Email    :       Isnainirizkyana55@gmail.com</label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Message  :       Jangan pernah putus asa dan teruslah berusaha</label>
+                    </p>
+                    </fieldset>
+            </p>
+        </article>
+    <hr class="divider" />
+        <article class="entry">
+            <h2></h2>
+            <img src="" alt="" class="">
+            <p></p>
+        </article>
+    </section>
+        <aside id="">
+            <div class="">
+                <h3 class=""></h3>
+                <ul>
+                </ul>
+            </div>
+            <div class="">
+                <h3 class=""></h3>
+                <p></p>
+            </div>
+        </aside>
+    </section> 
+    <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+    </footer>
+</body>
+</html>
+~~~
+Kemudian buka browser dan lihat hasilnya.
+![kontak](https://user-images.githubusercontent.com/81541764/115945809-8a529280-a4e7-11eb-840d-f1e6ef6fd7db.JPG)
+
