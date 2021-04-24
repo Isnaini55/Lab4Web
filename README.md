@@ -474,6 +474,7 @@ Persiapan membuat dokumen HTML dengan nama file about.html seperti berikut.
 </html>
 ~~~
 Kemudian buka browser dan lihat hasilnya.
+
 ![tentang](https://user-images.githubusercontent.com/81541764/115945740-38117180-a4e7-11eb-8e9c-f246bc6752e8.JPG)
 
 2. Tambahkan layout untuk menu Contact
